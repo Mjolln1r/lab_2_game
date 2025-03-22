@@ -15,6 +15,7 @@ $(EXECUTABLE): $(OBJECTS)
 
 %.o: %.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
+    ./test
 
 .PHONY: clean
 
